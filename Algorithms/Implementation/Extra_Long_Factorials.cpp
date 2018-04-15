@@ -22,7 +22,7 @@ int main() {
         for (int j = 0; j < len; j++) {
 
             int mul = i * arr[j] + carry;
-            cout << mul;
+           // cout << mul;
             int dig = mul % 10;
             arr[j] = dig;
             carry = mul / 10;
